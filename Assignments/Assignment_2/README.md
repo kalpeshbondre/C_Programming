@@ -38,7 +38,7 @@ The programs focus on loops, conditional statements, user-defined functions, and
 - Handles negative frequency by converting it to a positive value.
 
 ## Folder Structure
-
+ 
 ```text
 Assignment_2/
 │
