@@ -1,18 +1,19 @@
 # Assignment 2 – C Programming
 
 ## Description
-This assignment contains four C programming solutions completed as part of the Logic Building with Industrial Project Development batch.
+This assignment contains five C programming solutions completed as part of the Logic Building with Industrial Project Development batch.
 
-The programs focus on loops, conditional statements, user-defined functions, and basic logic building.
+The programs focus on loops, conditional statements, user-defined functions, factors, and basic logic building.
 
 ## Programs List
 
-| No. | Program Description | Concepts Used |
+| No. | Program Name | Concepts Used |
 |---|---|---|
-| 1 | Display `*` according to the given number using a decreasing counter | While Loop, Decrement Operator |
-| 2 | Display `*` according to the given number | While Loop, User-Defined Function |
-| 3 | Display "Hello" if the number is less than 10; otherwise, display "Demo" | If-Else Statement |
-| 4 | Display the first number according to the frequency specified by the second number | For Loop, User-Defined Function |
+| 1 | Display Asterisks Using a Decreasing Counter | While Loop, Decrement Operator |
+| 2 | Display Asterisks Using a While Loop | While Loop, User-Defined Function |
+| 3 | Display Hello or Demo | If-Else Statement |
+| 4 | Display a Number According to Its Frequency | For Loop, User-Defined Function |
+| 5 | Print Even Numbers and Display Even Factors / Check Even or Odd | For Loop, Modulo Operator, Boolean |
 
 ## Program Details
 
@@ -35,20 +36,13 @@ The programs focus on loops, conditional statements, user-defined functions, and
 - Accepts two integer values from the user.
 - The first number represents the value to display.
 - The second number represents the frequency.
-- Handles negative frequency by converting it to a positive value.
+- Converts a negative frequency into a positive frequency.
 
-## Folder Structure
- 
-```text
-Assignment_2/
-│
-├── program2_1.c
-├── program2_2.c
-├── program2_3.c
-├── program2_4.c
-│
-└── README.md
-```
+### 5. Even Number Operations
+This program set covers:
+- Printing the first specified number of even numbers.
+- Displaying even factors of a given number.
+- Checking whether a number is even or odd using a Boolean function.
 
 ## Technologies Used
 - Programming Language: C
@@ -64,7 +58,21 @@ All programs follow the coding conventions provided in the Logic Building with I
 - Function documentation headers
 - Modular programming
 - Proper use of data types
+- Input validation
 - Readable and maintainable code
+
+## Folder Structure
+
+```text
+Assignment_2/
+│
+├── program2_1.c
+├── program2_2.c
+├── program2_3.c
+├── program2_4.c
+├── program2_5.c
+└── README.md
+```
 
 ## Author
 
