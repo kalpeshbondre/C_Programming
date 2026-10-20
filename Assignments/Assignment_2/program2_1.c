@@ -15,8 +15,14 @@
 
 void Display(int iNo)
 {
-    // Value Updater
-    int iCnt = 1;
+    
+    int iCnt = 0;
+
+    //Input Updater
+    if(iNo < 0)
+    {
+        iNo = -iNo;
+    }
 
     // Business Logic
     while (iCnt <= iNo)
