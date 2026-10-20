@@ -13,8 +13,15 @@
 
 void Display(int iNo)
 {
+    //Input Updater
+    if(iNo < 0)
+    {
+        iNo = -iNo;
+    }
+
     int iCnt = 1;
 
+    //Bussiness Logic
     while(iNo >= iCnt)
     {
         printf("* ");
