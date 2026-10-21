@@ -1,5 +1,6 @@
 # Assignment 3 – C Programming
 
+
 ## Description
 This assignment contains C programs developed to practice conditional statements, loops, functions, character handling, and Boolean return values.
 
