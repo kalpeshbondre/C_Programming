@@ -1,46 +1,46 @@
-#include<stdio.h>
-#include<stdlib.h>
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////
+#include <stdio.h>
+#include <stdlib.h>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 //
-// Function Name : CheckCharacterType
-// Input         : chracter
-// Output        : None
-// Description   : Check uppercase, lowecase, digit and special character
-// Date          : 22/10/2026
-// Author        : Kalpesh Balappa Bondre
+//  Function Name   :   CheckDivisibility
+//  Input           :   Integer
+//  Output          :   None
+//  Description     :   Checks whether the given number is divisible by 5.
+//  Author          :   Kalpesh Bondre
+//  Date            :   22/10/2026
 //
-///////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-void CheckCharacterType(char cValue)
+void CheckDivisibility(int iNo)
 {
-    if(cValue >= 'A' && cValue <= 'Z')
+    if(iNo % 5 == 0)
     {
-        printf("Uppercase Alphabet\n");
-    }
-    else if(cValue >= 'a' && cValue <= 'z')
-    {
-        printf("Lowercase Alphabet\n");
-    }
-    else if(cValue >= '0' && cValue <= '9')
-    {
-        printf("Digit\n");
+        printf("Divisible by 5\n");
     }
     else
     {
-        printf("Special Character\n");
+        printf("Not Divisible by 5\n");
     }
 }
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  Entry point function
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
 int main()
 {
-    char cValue = '\0';
+    int iValue = 0;
 
-    printf("Enter a character: ");
-    scanf(" %c", &cValue);
+    printf("Enter the number: ");
+    scanf("%d", &iValue);
 
-    CheckCharacterType(cValue);
+    CheckDivisibility(iValue);
 
     return EXIT_SUCCESS;
 }
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
