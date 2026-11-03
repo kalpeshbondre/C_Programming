@@ -1,20 +1,21 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 //
 // Function Name : FindGreatest
-// Input         : Integer
+// Input         : Three Integers
 // Output        : None
-// Description   : Find the Greatest of three number
+// Description   : Finds the greatest of three numbers.
 // Date          : 22/10/2026
-// Author        : Kalpesh Balappa Bondre
+// Author        : Kalpesh Bondre
 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 void FindGreatest(int iFirst, int iSecond, int iThird)
 {
-    if(iFirst >= iSecond && iFirst >= iSecond)
+    if(iFirst >= iSecond && iFirst >= iThird)
     {
         printf("Largest number is %d\n", iFirst);
     }
@@ -28,15 +29,22 @@ void FindGreatest(int iFirst, int iSecond, int iThird)
     }
 }
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Entry point function
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
 int main()
 {
-    int iValuel = 0, iValue2 = 0, iValue3 = 0;
+    int iValue1 = 0, iValue2 = 0, iValue3 = 0;
 
     printf("Enter three numbers: ");
+    scanf("%d %d %d", &iValue1, &iValue2, &iValue3);
 
-    scanf("%d %d %d", &iValuel, &iValue2, &iValue3);
-
-    FindGreatest(iValuel, iValue2, iValue3);
+    FindGreatest(iValue1, iValue2, iValue3);
 
     return EXIT_SUCCESS;
 }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
