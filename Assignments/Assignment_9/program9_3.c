@@ -7,7 +7,7 @@
 //      Input           :   Integer
 //      Output          :   Integer
 //      Description     :   Returns the multiplication of all even factors.
-//      Date            :   02/10/2026
+//      Date            :   04/11/2026
 //      Author          :   Kalpesh Balappa Bondre
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////////
