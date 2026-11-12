@@ -8,7 +8,7 @@
 //  Input           :   Integer
 //  Output          :   None
 //  Description     :   Accept number from user and print that number of $ & *
-//  Date            :   02/10/2026
+//  Date            :   28/10/2026
 //  Author          :   Kalpesh Balappa Bondre
 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////
