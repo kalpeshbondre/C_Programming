@@ -7,7 +7,7 @@
 //  Input           :   Integer
 //  Output          :   None
 //  Description     :   Displays the multiplication table in reverse order.
-//  Date            :   02/10/2026
+//  Date            :   03/11/2026
 //  Author          :   Kalpesh Balappa Bondre
 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////
