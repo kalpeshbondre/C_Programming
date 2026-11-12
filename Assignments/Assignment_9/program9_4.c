@@ -7,7 +7,7 @@
 //      Input           :   Integer
 //      Output          :   Integer
 //      Description     :   Returns the multiplication of all odd factors.
-//      Date            :   02/10/2026
+//      Date            :   04/11/2026
 //      Author          :   Kalpesh Balappa Bondre
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////////
