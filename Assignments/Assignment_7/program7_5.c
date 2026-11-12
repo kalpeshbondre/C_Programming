@@ -8,7 +8,7 @@
 //  Input           :   Integer
 //  Output          :   None
 //  Description     :   Displays the first five multiples of a given number.
-//  Date            :   02/10/2026
+//  Date            :   02/11/2026
 //  Author          :   Kalpesh Balappa Bondre
 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////
