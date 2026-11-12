@@ -7,7 +7,7 @@
 //      Input           :   Integer
 //      Output          :   None
 //      Description     :   Displays '*' and '#' symbols N times.
-//      Date            :   02/10/2026
+//      Date            :   04/11/2026
 //      Author          :   Kalpesh Balappa Bondre
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////////
