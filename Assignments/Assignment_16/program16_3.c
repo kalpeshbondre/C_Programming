@@ -1,3 +1,11 @@
+/*
+    Input :     iRow = 3     iCol = 5
+    Output : 
+                A   A   A   A   A   A
+                B   B   B   B   B   B
+                C   C   C   C   C   C
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -19,7 +27,7 @@ void Pattern(int iRow, int iCol)
 
     ch = 'A';
 
-    for(i = 1; i <= iRow; i++)
+    for(i = 1; i <= iRow; i++, ch++)
     {
         for(j = 1; j <= iCol; j++)
         {
@@ -27,7 +35,6 @@ void Pattern(int iRow, int iCol)
         }
 
         printf("\n");
-        ch++;
     }
 
     printf("\n");
